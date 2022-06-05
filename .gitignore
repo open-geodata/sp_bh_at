@@ -1,7 +1,7 @@
 # Data
 scrapy/
-data/input/
-data/output/
+src/sp_bh_at/data/input/
+src/sp_bh_at/data/output/
 
 # IDEs
 .idea/
