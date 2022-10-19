@@ -1,10 +1,6 @@
 from setuptools import setup, find_packages
 
 
-
-
-
-
 with open('README.md', 'r') as f:
     long_description = f.read()
 
@@ -14,14 +10,9 @@ for line in open('requirements.txt'):
     if not li.startswith('#'):
         requirements.append(line.rstrip())
 
-        
-        
+
 VERSION = (0, 0, 8)
 __version__ = '.'.join(map(str, VERSION))
-
-
-
-
 
 
 setup(
@@ -32,7 +23,7 @@ setup(
     description='Compartilhamento de Dados Espaciais',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/open-geodata/sp_ff_apa-corumbatai',
+    url='https://github.com/open-geodata/sp_bh_at',
     keywords='python, dados espaciais, geoprocessamento',
 
     # Python and Packages
@@ -40,10 +31,12 @@ setup(
     install_requires=requirements,
 
     # Entry
-    package_dir={'': 'src'},  # Our packages live under src but src is not a package itself
+    # Our packages live under src but src is not a package itself
+    package_dir={'': 'src'},
 
     # Quando são diversos módulos...
-    packages=find_packages('src', exclude=['test']),
+    #packages=find_packages('src', exclude=['test']),
+    packages=find_packages(),
 
     # Dados
     include_package_data=True,
