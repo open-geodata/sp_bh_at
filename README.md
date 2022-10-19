@@ -35,4 +35,4 @@ No site do Comitê do Alto Tietê é informado que
 
 ### _TODO_
 
-1. ...
+1. Fazer _download_ dos dados

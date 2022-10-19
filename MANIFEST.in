@@ -9,9 +9,9 @@ graft src
 
 # Remove all files under directories
 prune test
-prune src/sp_bh_at/data/input 
-prune src/sp_bh_at/data/output/geo
-prune src/sp_bh_at/data/output/map
+prune sp_bh_at/data/input 
+prune sp_bh_at/data/output/geo
+prune sp_bh_at/data/output/map
 
 #recursive-include YourPackage/data/*.csv
 
