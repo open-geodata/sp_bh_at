@@ -44,7 +44,7 @@ options.set_preference('browser.download.forbid_open_with', True)
 # By default, all driver binaries are saved to user.home/.wdm folder. (0)
 # You can override this setting and save binaries to project.root/.wdm. (1)
 os.environ['WDM_LOCAL'] = '0'
-print(os.getenv('WDM_LOCAL'))
+#print(os.getenv('WDM_LOCAL'))
 
 
 # Download Driver
