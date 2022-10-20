@@ -23,6 +23,7 @@ adds_path.mkdir(exist_ok=True)
 
 # Package Path
 package_path = project_path / 'sp_bh_at'
+package_path.mkdir(exist_ok=True)
 
 data_path = package_path / 'data'
 data_path.mkdir(exist_ok=True)
