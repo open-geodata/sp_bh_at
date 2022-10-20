@@ -15,7 +15,7 @@ from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
 from paths import *
-
+# https://stackoverflow.com/questions/15607903/python-module-os-chmodfile-664-does-not-change-the-permission-to-rw-rw-r-bu
 
 # Credencials
 #from dotenv import dotenv_values, find_dotenv
