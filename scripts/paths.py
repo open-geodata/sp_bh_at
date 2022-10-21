@@ -31,14 +31,20 @@ data_path.mkdir(exist_ok=True)
 input_path = data_path / 'input'
 input_path.mkdir(exist_ok=True)
 
+input_path_brutos = input_path / 'brutos'
+input_path_brutos.mkdir(exist_ok=True)
+
 output_path = data_path / 'output'
 output_path.mkdir(exist_ok=True)
 
 output_path_geo = output_path / 'geo'
 output_path_geo.mkdir(exist_ok=True)
 
-output_path_tab = output_path / 'tab'
-output_path_tab.mkdir(exist_ok=True)
+output_path_gpkg = output_path / 'gpkg'
+output_path_gpkg.mkdir(exist_ok=True)
+
+#output_path_tab = output_path / 'tab'
+#output_path_tab.mkdir(exist_ok=True)
 
 output_path_map = output_path / 'map'
 output_path_map.mkdir(exist_ok=True)

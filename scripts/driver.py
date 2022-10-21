@@ -18,9 +18,9 @@ from paths import *
 # https://stackoverflow.com/questions/15607903/python-module-os-chmodfile-664-does-not-change-the-permission-to-rw-rw-r-bu
 
 # Credencials
-#from dotenv import dotenv_values, find_dotenv
-#config = dotenv_values(find_dotenv(usecwd=False))
-#os.environ['GH_TOKEN'] = config['GH_TOKEN']
+from dotenv import dotenv_values, find_dotenv
+config = dotenv_values(find_dotenv(usecwd=False))
+os.environ['GH_TOKEN'] = config['GH_TOKEN']
 
 
 # Set Options

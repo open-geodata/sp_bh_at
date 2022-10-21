@@ -4,8 +4,8 @@
 include requirements.txt
 include LICENSE
 
-# Add all files under directories src
-graft src 
+# Add all files under directories sp_bh_at
+graft sp_bh_at 
 
 # Remove all files under directories
 prune test

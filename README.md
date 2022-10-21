@@ -61,4 +61,5 @@ geo.load_dataset_from_package('sp_bh_at', dataset_name)
 
 ### _TODO_
 
-1. Fazer _download_ dos dados
+1. ~~Fazer _download_ dos dados~~
+2. Ajustar as tabelas de atributos!

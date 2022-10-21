@@ -1,7 +1,10 @@
 # Data
 scrapy/
-src/sp_bh_at/data/input/
-src/sp_bh_at/data/output/
+sp_bh_at/data/input/
+sp_bh_at/data/output/gpkg
+sp_bh_at/data/output/geo/comite_alto_tiete.7z
+sp_bh_at/data/output/geo/62_mov_massa_e_inundacao.7z
+sp_bh_at/data/output/geo/apps.7z
 
 # IDEs
 .idea/
