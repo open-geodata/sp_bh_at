@@ -10,7 +10,7 @@ graft sp_bh_at
 # Remove all files under directories
 prune test
 prune sp_bh_at/data/input 
-prune sp_bh_at/data/output/geo
+#prune sp_bh_at/data/output/geo
 prune sp_bh_at/data/output/map
 
 #recursive-include YourPackage/data/*.csv
