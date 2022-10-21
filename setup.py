@@ -11,7 +11,7 @@ for line in open('requirements.txt'):
         requirements.append(line.rstrip())
 
 
-VERSION = (0, 0, 9)
+VERSION = (0, 0, 10)
 __version__ = '.'.join(map(str, VERSION))
 
 
@@ -40,7 +40,7 @@ setup(
 
     # Dados
     include_package_data=True,
-    package_data={'sp_bh_at': ['data/output/geo/*.7z']},
+    package_data={'': ['data/output/geo/*.7z']},
 
     # Classificação
     classifiers=[
