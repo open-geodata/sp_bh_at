@@ -11,7 +11,7 @@ for line in open('requirements.txt'):
         requirements.append(line.rstrip())
 
 
-VERSION = (0, 0, 10)
+VERSION = (0, 0, 11)
 __version__ = '.'.join(map(str, VERSION))
 
 
